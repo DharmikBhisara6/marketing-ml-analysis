@@ -15,7 +15,7 @@ The dataset contains various features such as budget, clicks, conversions, ROI, 
 
 ## Objective
 The objective of this project is:
-- To predict customer revenue level (high or low)
+- To predict customer revenue level (high or low) using machine learning models
 - To compare different machine learning models
 - To identify important features affecting performance
 
@@ -26,7 +26,7 @@ The objective of this project is:
 2. Which model gives better results?
 3. Does scaling improve performance?
 4. Which features are most important?
-5. Can tuning improve the model?
+5. Does hyperparameter tuning improve model performance?
 6. How well does the model classify results?
 7. What final insights can we draw?
 
@@ -42,6 +42,7 @@ The following steps were followed:
 - Feature scaling
 - Hyperparameter tuning
 - Model evaluation
+- A subset of the dataset was used to improve computational efficiency
 
 ---
 
@@ -49,7 +50,7 @@ The following steps were followed:
 - Random Forest achieved higher accuracy compared to Logistic Regression
 - Feature scaling improved the performance of Logistic Regression
 - Key features influencing revenue include Budget, ROI, and Bundle Price
-- Hyperparameter tuning improved model performance
+- Hyperparameter tuning significantly improved model performance
 - The model demonstrates reasonable generalization based on cross-validation
 
 ---
@@ -82,3 +83,6 @@ This project demonstrates the practical application of machine learning techniqu
 
 ## Author
 Dharmik Bhisara
+
+## Note
+All experiments were conducted using Kaggle notebooks with full execution outputs.
