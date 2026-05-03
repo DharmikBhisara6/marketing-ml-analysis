@@ -1,8 +1,7 @@
 # Marketing & Product Performance Analysis
 
 ## Overview
-This project focuses on analyzing marketing and product performance data to understand what drives customer revenue. The main goal is to build machine learning models that can predict whether a customer generates high or low revenue.
-
+This project focuses on analyzing marketing and product performance data using machine learning techniques to predict customer revenue behavior.
 ---
 
 ## Dataset
@@ -47,14 +46,11 @@ The following steps were followed:
 ---
 
 ## Results Summary
-- Random Forest performed better than Logistic Regression
-- Feature scaling slightly improved performance
-- Hyperparameter tuning improved accuracy further
-- Important features include:
-  - Bundle Price
-  - Budget
-  - ROI
-  - Clicks
+- Random Forest achieved higher accuracy compared to Logistic Regression
+- Feature scaling improved the performance of Logistic Regression
+- Key features influencing revenue include Budget, ROI, and Bundle Price
+- Hyperparameter tuning improved model performance
+- The model demonstrates reasonable generalization based on cross-validation
 
 ---
 
@@ -80,7 +76,7 @@ The project is divided into multiple notebooks:
 ---
 
 ## Conclusion
-The project shows that machine learning can help identify key factors affecting revenue. Random Forest with tuning provided the best results and can be useful for business decision-making.
+This project demonstrates the practical application of machine learning techniques in solving real-world marketing analytics problems.
 
 ---
 
